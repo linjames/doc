@@ -1,0 +1,12 @@
+Hardwares:
+
+1) WEMOS D1Mini ESP8266
+2) D-duino
+3) ESP-M3 (esp8285)
+
+Software
+1) download latest micropython from http://micropython.org
+2) pip install esptool mpfshel
+
+
+
