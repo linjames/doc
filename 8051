@@ -1,0 +1,13 @@
+Hardware
+1) NRF24LE1
+
+Software
+Need Adruino to program the chip
+https://github.com/polkabana/nRF24LE1_Programmer
+
+Use SDCC to compile the code
+https://github.com/DeanCording/nRF24LE1_Example
+
+
+Setup
+Need to write code to interface with NRF24L01+ on raspberry pi so it can communicate with NRF24LE1
