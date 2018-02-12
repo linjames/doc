@@ -16,3 +16,8 @@ esptool.py --chip auto --port /dev/ttyUSB0 write_flash -fm dio 0 esp8266-2017110
 
 
 
+D1 Mini Motor Shield reprogramming
+
+https://hackaday.io/project/18439-motor-shield-reprogramming
+
+
