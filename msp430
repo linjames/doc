@@ -1,0 +1,6 @@
+  Hardware
+  1) MSP430G dev board  msp430g2553, msp430g2552
+  
+  Software
+  apt-get install gcc-msp430 mspdebug
+  
