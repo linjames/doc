@@ -1,0 +1,9 @@
+Hardware
+1) Wemos ESP32 lite
+2) TTGO ESP32 OLED V2.0 16MB
+
+Software
+pip install esptool mpfshell
+
+a) ESP32 lite
+esptool.py --chip auto --port /dev/ttyUSB0 write_flash 0x1000 esp32-20180211-v1.9.3-288-g02f88cb2.bin
