@@ -1,12 +1,18 @@
 Hardwares:
 
-1) WEMOS D1Mini ESP8266
+1) Wemos D1 Mini ESP8266
 2) D-duino
 3) ESP-M3 (esp8285)
+4) Witty Cloud Dev board
 
 Software
 1) download latest micropython from http://micropython.org
 2) pip install esptool mpfshel
+
+a) D-duino, Witty, 
+esptool.py --chip auto --port /dev/ttyUSB0 write_flash 0 esp8266-20171101-v1.9.3.bin
+b) D1 Mini
+esptool.py --chip auto --port /dev/ttyUSB0 write_flash -fm dio 0 esp8266-20171101-v1.9.3.bin
 
 
 
