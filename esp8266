@@ -13,6 +13,8 @@ a) D-duino, Witty,
 esptool.py --chip auto --port /dev/ttyUSB0 write_flash 0 esp8266-20171101-v1.9.3.bin
 b) D1 Mini
 esptool.py --chip auto --port /dev/ttyUSB0 write_flash -fm dio 0 esp8266-20171101-v1.9.3.bin
+c) ESP-M3
+esptool.py --chip auto --port /dev/ttyUSB0 write_flash -fm dout 0 esp8266-20171101-v1.9.3.bin
 
 
 
